@@ -23,17 +23,22 @@ $result = mysqli_query($connection,$show);
                 while ($sh=mysqli_fetch_assoc($result)){
             ?>
             <tr>
-            <th class="text-light ">First Name</th>
+            <th class="text-info ">First Name</th>
             <td class="text-light "><?php echo $sh['first_name'];?></td>
 
             </tr>
             <tr>
-            <th class="text-light "> Last Name</th>
+            <th class="text-info "> Last Name</th>
             <td class="text-light "><?php echo $sh['last_name'];?></td>
 
             </tr>
             <tr>
-            <th class="text-light ">Email</th>
+            <th class="text-info ">Address</th>
+            <td class="text-light "><?php echo $sh['uaddress'];?></td>
+        
+            </tr>
+            <tr>
+            <th class="text-info ">Email</th>
             <td class="text-light "><?php echo $sh['email'];?></td>
         
             </tr>
