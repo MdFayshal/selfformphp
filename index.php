@@ -86,3 +86,4 @@ $result = mysqli_query($connection,$info);
 
 
 <?php include('footer.php')?>
+<!--this is just for demo purpose main project index1.php-->
